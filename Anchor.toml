@@ -1,0 +1,21 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+anchor_examples = "jdKokT2sUSDzQF2AFZ2ZzLbemj89ZDdFh2abR7xzjc2"
+clock = "C4hkbSVcQHo7bLiZe1jpi1s5dpefSRPHtC4EYitYDcs"
+spl = "2Bh3qNT7Nqfk6LHV3mAj7J6aEZPb8JdACqtadSu1NEJU"
+sysvar = "CqxSjhmrv6UCrswYXXvwGJwaFJeri2c2t4QBgcVxwqV"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/Users/mac/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

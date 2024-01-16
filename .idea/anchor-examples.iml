@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/programs/anchor-examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programs/clock/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programs/spl/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programs/sysvar/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
